@@ -32,7 +32,7 @@ const Hero = () => {
                 </div>
 
                 <div className="w-[30%] order-1 md:order-2">
-                    <img className="w-[150px] h-[150px] rounded-full mt-2 md:w-[300px] md:h-[300px]" src={img} alt="" />
+                    <img className="person w-[150px] h-[150px] rounded-full mt-2 md:w-[300px] md:h-[300px]" src={img} alt="" />
                 </div>
             </div>
         </div>
