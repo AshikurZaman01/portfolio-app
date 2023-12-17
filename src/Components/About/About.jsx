@@ -1,12 +1,13 @@
 import imgg from "../../assets/images/Firefly 20231211224753.png";
-import { FaRegIdBadge } from "react-icons/fa";
+import { FaRegFileAlt, FaRegIdBadge } from "react-icons/fa";
 import { IoBagOutline } from "react-icons/io5";
 import { BiSupport } from "react-icons/bi";
+import handleDownload from './downloadCV.js';
 
 const About = () => {
     return (
         <div>
-            <div className="text-center mb-10">
+            <div className="text-center mb-10 pb-10">
                 <h1 className="text-3xl md:text-4xl font-bold my-5">About Me</h1>
                 <h4 className="text-sm md:text-xl font-semibold">My Introduction</h4>
             </div>
@@ -16,7 +17,7 @@ const About = () => {
 
                     <div className="flex-1 md:order-1 order-1 md:my-0 mb-10">
                         <div className="flex justify-center">
-                            <img className="md:w-[200px] w-[200px] h-[200px] md:h-[300px] object-cover md:rounded-full rounded-md" src={imgg} alt="" />
+                            <img className="md:w-[250px] w-[200px] h-[200px] md:h-[400px] object-cover md:rounded-full rounded-md" src={imgg} alt="" />
                         </div>
                     </div>
 
@@ -41,6 +42,8 @@ const About = () => {
 
                         <div className="my-10">
                             <p className="text-justify p-6 md:p-0">As a front-end developer, I am a creative and detail-oriented professional dedicated to crafting seamless and engaging user experiences on the web. With a keen eye for design and a passion for translating concepts into interactive and visually appealing interfaces, I thrive on the dynamic intersection of technology and aesthetics.</p>
+
+                            <button onClick={() => handleDownload("patnName", "fileName.pdf")} className="flex items-center justify-center gap-1 btn hover:bg-black hover:text-white hover:shadow-2xl hover:shadow-white btn btn-md text-center mx-auto bg-black text-gray-400 my-10">Download cv <span><FaRegFileAlt /></span></button>
                         </div>
                     </div>
 
