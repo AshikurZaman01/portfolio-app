@@ -9,7 +9,7 @@ const About = () => {
         <div>
             <div className="text-center mb-10 pb-10">
                 <h1 className="text-3xl md:text-4xl font-bold my-5">About Me</h1>
-                <h4 className="text-sm md:text-xl font-semibold">My Introduction</h4>
+                <h4 className="text-sm md:text-xl font-semibold text-gray-500">My Introduction</h4>
             </div>
 
             <div>
@@ -22,7 +22,7 @@ const About = () => {
                     </div>
 
                     <div className="flex-1 order-2 md:order-2 ">
-                        <div className="flex items-center justify-center md:justify-start gap-5 md:gap-20 text-2xl ">
+                        <div className="flex items-center justify-center md:justify-start gap-5 md:gap-20 text-xl md:text-2xl ">
                             <div className="flex flex-col justify-center items-center p-4 rounded space-y-3 border border-slate-400 shadow shadow-slate-500">
                                 <span className=""><FaRegIdBadge /></span>
                                 <h2>Experience</h2>
