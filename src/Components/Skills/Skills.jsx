@@ -5,7 +5,7 @@ import { RiJavascriptLine } from "react-icons/ri";
 
 const Skills = () => {
     return (
-        <div>
+        <div className="mt-[150px]">
             <div className="my-10 text-center space-y-4">
                 <h1 className="text-2xl md:text-4xl font-bold">Skills</h1>
                 <h4 className="text-sm text-gray-500 md:text-2xl font-semibold">My Technical Level</h4>
