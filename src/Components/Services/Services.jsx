@@ -12,7 +12,7 @@ const Services = () => {
                 <h4 className="text-sm text-gray-500 md:text-2xl font-semibold">What i offer</h4>
             </div>
 
-            <div className="grid md:grid-cols-3 grid-cols-1 gap-5 text-center py-10">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 text-center py-10">
 
                 <div>
                     <details className="dropdown">
